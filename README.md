@@ -1,4 +1,4 @@
-# Course IBM Data Science Certificate Capstone Project
+# Coursera IBM Data Science Certificate Capstone Project
 
 
 ### Introduction/Business Problem
