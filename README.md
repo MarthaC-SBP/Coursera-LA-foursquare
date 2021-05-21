@@ -22,4 +22,11 @@ Using the zip codes for each district, I will collect the geographical location 
 * longitude: District longitude
 
 #### Venue data:
-Finally, I will use the district geogrphical location data to get local venue information, using the FourSquare API. The 'explore' endpoint will be used to pull a list of recommended venues within each district. This data will then be used to complete the clustering and identify other districts that are similar to the Fashion District. 
+Finally, I will use the district geographical location data to get local venue information, using the FourSquare API. The 'explore' endpoint will be used to pull a list of recommended venues within each district. I will capture the following data into a dataframe, along with the district data: 
+
+* venue: Venue name
+* venue_category: Venue category
+* venue_lat: Venue latitude
+* venue_lng: Venue longitude
+
+These data components will then be used to complete the clustering and identify other districts that are similar to the Fashion District. 
