@@ -16,7 +16,7 @@ To create clusters of the districts in Downtown Los Angeles, I will webscrape th
 * district: Name of district
 * zip_code: Zip code of district
 
-### Geographical location data:
+#### Geographical location data:
 Using the zip codes for each district, I will collect the geographical location data for each district, adding the following columns to the dataframe: 
 * latitude: District latitude
 * longitude: District longitude
