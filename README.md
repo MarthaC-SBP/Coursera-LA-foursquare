@@ -12,7 +12,9 @@ Geographical location data for each district, as well as data about the venues i
 A csv file containing DTLA district names and geographical coordinates will be used to create a Pandas dataframe including the following data points:
 
 district: Name of district
+
 latitude: District latitude
+
 longitude: District longitude
 
 *Venue data:*
@@ -20,6 +22,9 @@ longitude: District longitude
 The district geographical location data will be used to get local venue information, using the FourSquare API. The 'explore' endpoint will be used to pull a list of recommended venues within each district. The following data will be captured into a dataframe, along with the district data:
 
 venue: Venue name
+
 venue_category: Venue category
+
 venue_lat: Venue latitude
+
 venue_lng: Venue longitude
